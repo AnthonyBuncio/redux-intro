@@ -1,0 +1,19 @@
+//********ACTION TYPES********
+export const GET_ITEMS = 'GET_ITEMS';
+export const ADD_ITEM = 'ADD_ITEM';
+export const DELETE_ITEM = 'DELETE_ITEM';
+
+
+//********ACTION CREATORS********
+
+//GETS INVOKED FROM THE COMPONENT
+//THEN DISPATCHES THE ACTION TO THE REDUCER
+//REDUCER LISTENS FOR THE 'TYPE' OF ACTION
+
+//ACTIONS ONLY DESCRIBE WHAT HAPPENED
+//BUT DOES NOT MAKE ACTUAL CHANGES TO THE STATE
+export const getItems = () => {
+    return {
+        type: GET_ITEMS
+    }
+}
